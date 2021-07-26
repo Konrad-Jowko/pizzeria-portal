@@ -3,9 +3,8 @@ import React from 'react';
 import styles from './TablesBooking.module.scss';
 
 const url = '' + window.location.href + '';
-const url2 = 'http://localhost:3000' + `${process.env.PUBLIC_URL}/panel/tables/booking/`;
+const url2 = 'http://localhost:3000' + `${process.env.PUBLIC_URL}/tables/booking/`;
 
-console.log(url2);
 const id = url.replace(url2, '');
 
 const TablesBooking = () => (
