@@ -2,12 +2,9 @@
 
 .component {
   padding: $base-size;
+  margin-left: auto;
 }
 
-.input {
-margin: 20px;
-}
-
-.button {
-  margin: 30px 0 0 10px;
+.link {
+  color: inherit;
 }

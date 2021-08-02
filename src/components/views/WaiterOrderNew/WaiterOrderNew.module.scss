@@ -2,4 +2,25 @@
 
 .component {
   padding: $base-size;
+
+  .h2 {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .h3 {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .select {
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+  }
+  .label {
+    text-align: center;
+    margin: 10px;
+  }
 }
